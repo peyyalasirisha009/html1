@@ -1,0 +1,48 @@
+
+<!DOCTYPE html> 
+<head> 
+    <title>Image Gallery</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin: 20px; 
+        } 
+        .gallery { 
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+        } 
+        .gallery a img { 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+            width: 100px; 
+            height: 100px; 
+            object-fit: cover; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <h1>Image Gallery</h1> 
+    <p>Click on a thumbnail to view the full-sized image.</p> 
+    <div class="gallery"> 
+        <!-- Image 1 --> 
+        <a href="D:\ACET\HTML\images\image1.jpg" target="_blank"> 
+            <img src="D:\ACET\HTML\images\image1.jpg" alt="Thumbnail 1"> 
+        </a> 
+        <!-- Image 2 --> 
+        <a href="D:\ACET\HTML\images\image2.jpg" target="_blank"> 
+            <img src="D:\ACET\HTML\images\image2.jpg" alt="Thumbnail 2"> 
+        </a> 
+        <!-- Image 3 --> 
+        <a href="D:\ACET\HTML\images\image3.jpg" target="_blank"> 
+            <img src="D:\ACET\HTML\images\image3.jpg" alt="Thumbnail 3"> 
+        </a> 
+        <!-- Image 4 --> 
+        <a href="D:\ACET\HTML\images\image4.jpg" target="_blank"> 
+            <img src="D:\ACET\HTML\images\image4.jpg" alt="Thumbnail 4"> 
+        </a> 
+    </div> 
+</body> 
+</html>
